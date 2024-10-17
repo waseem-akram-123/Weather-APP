@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+
+</head>
+<body>
+        <div id="container">
+
+            <div class="navbar">
+                <div id="search"><input type = "text" placeholder="search for the area"></div>
+                <div id="search-icon"><button><i class="fa-solid fa-magnifying-glass"></i></button></div>
+            </div>
+
+            <div class="mainbody">
+                <div id="img"> </div>
+            </div>
+            <div class="class">
+                <p id = "type">weather type</p>
+            </div>
+
+            <div class="information1">
+                <p id = "temp"> 22 <sup>o</sup>C</p>
+            </div>
+
+            <div class="information2">
+                <p id = "name">  NEW YORK </p>
+            </div>
+
+            <div class="footer">
+
+                <div id="humidity">
+                    <div id="humidity-icon"> <i class="fa-solid fa-droplet"></i></div>
+                    <div id="humidity-info">
+                        <p id = "h-id"> 84% </p>
+                        <p> humidity </p>
+                    </div>
+                </div>
+
+                <div id="windspeed">
+                    <div id="windspeed-icon"> <i class="fa-solid fa-gauge"></i></i></div>
+                    <div id="windspeed-info">
+                        <p id = "w-id"> 18 KMH </p>
+                        <p> wind speed </p>
+                    </div>
+                </div>
+
+
+        </div>
+        <script src = "weather.js"></script>
+</body>
+</html>
